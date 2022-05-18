@@ -21,3 +21,10 @@
   height: 600px;
   background: #2f303a;
 }
+
+.project-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+}
