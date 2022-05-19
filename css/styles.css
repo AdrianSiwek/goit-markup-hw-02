@@ -1,9 +1,8 @@
-.body {
-  font-family: Roboto, sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 .wrapper {
-  display: flex;
-  flex-direction: row-reverse;
+  display: inline;
   justify-content: center;
   width: 1600px;
   height: 2349px;
@@ -23,8 +22,16 @@
 }
 
 .project-name {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
 }
