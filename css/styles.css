@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+ul > li {
+  float: left;
+}
+
 .wrapper {
   justify-content: center;
   width: 1600px;
@@ -78,6 +83,9 @@ body {
   width: 272px;
   height: 16px;
   display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .agency {
