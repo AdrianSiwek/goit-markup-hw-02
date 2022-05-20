@@ -2,26 +2,36 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .wrapper {
-  display: inline;
   justify-content: center;
   width: 1600px;
   height: 2349px;
-  margin: 0 auto;
   background: #ffffff;
 }
 
-.header {
+.buttons {
   width: 1600px;
   height: 80px;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: inline-flex;
+  background: #ffffff;
 }
 
-.project {
+.main-description {
   width: 1600px;
+  margin-top: 80px;
   height: 600px;
   background: #2f303a;
 }
 
-.project-name {
+.elaboration {
+  width: 1170px;
+  height: 101px;
+  margin-top: 774px;
+  margin-left: 215px;
+}
+
+.description-name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -31,4 +41,77 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 200px;
+  margin-left: 452px;
+  margin-right: 452px;
+}
+
+.description-click {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-top: 430px;
+  margin-left: 700px;
+}
+
+.highlight {
+  color: #2196f3;
+}
+
+.webstudio {
+  width: 145px;
+  margin-left: 214px;
+  margin-top: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  width: 272px;
+  height: 16px;
+  display: block;
+}
+
+.agency {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
