@@ -30,6 +30,10 @@ body {
   margin-left: 215px;
   display: inline-flex;
 }
+.information {
+  background: #2f303a;
+  color: #ffffff;
+}
 
 .description-name {
   font-family: "Roboto";
@@ -143,5 +147,9 @@ body {
 }
 
 a:hover {
+  color: #2196f3;
+}
+
+a:focus {
   color: #2196f3;
 }
