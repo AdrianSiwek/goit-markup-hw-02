@@ -141,3 +141,7 @@ body {
   color: #757575;
   text-decoration: none;
 }
+
+a:hover {
+  color: #2196f3;
+}
