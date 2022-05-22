@@ -1,9 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
-}
-
-ul > li {
-  float: left;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 
 .wrapper {
@@ -23,22 +19,18 @@ ul > li {
 }
 
 .main-description {
-  width: 1600px;
   margin-top: 80px;
   height: 600px;
   background: #2f303a;
 }
 
 .elaboration {
-  width: 1170px;
-  height: 101px;
   margin-top: 774px;
   margin-left: 215px;
 }
 
 .description-name {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -46,9 +38,6 @@ ul > li {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 200px;
-  margin-left: 452px;
-  margin-right: 452px;
 }
 
 .description-click {
@@ -61,6 +50,18 @@ ul > li {
   margin-left: 700px;
 }
 
+.description-click-word {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
 .highlight {
   color: #2196f3;
 }
@@ -70,7 +71,6 @@ ul > li {
   margin-left: 214px;
   margin-top: 24px;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -90,7 +90,6 @@ ul > li {
 
 .agency {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -100,6 +99,7 @@ ul > li {
   height: 16px;
   left: 453px;
   top: 32px;
+  color: #2196f3;
 }
 
 .portfolio {
@@ -121,5 +121,25 @@ ul > li {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
+}
+
+.contacts-links-mail {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.contacts-links-phone {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
   text-decoration: none;
 }
