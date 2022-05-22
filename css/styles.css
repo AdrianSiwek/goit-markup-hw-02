@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
   justify-content: center;
 }
 
@@ -27,6 +28,7 @@ body {
 .elaboration {
   margin-top: 774px;
   margin-left: 215px;
+  display: inline-flex;
 }
 
 .description-name {
