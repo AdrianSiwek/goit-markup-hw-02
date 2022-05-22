@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  justify-content: center;
 }
 
 .wrapper {
-  justify-content: center;
   width: 1600px;
   height: 2349px;
   background: #ffffff;
