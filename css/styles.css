@@ -39,7 +39,7 @@ body {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ body {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -79,7 +79,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: black;
@@ -98,7 +98,7 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
@@ -109,7 +109,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -120,7 +120,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -130,7 +130,7 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -140,7 +140,7 @@ body {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -152,4 +152,43 @@ a:hover {
 
 a:focus {
   color: #2196f3;
+}
+
+.web {
+  text-decoration: none;
+  font-family: "Raleway";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
+
+.adres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.contacts-links {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
