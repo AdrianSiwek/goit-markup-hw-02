@@ -2,11 +2,6 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
   justify-content: center;
-}
-
-.wrapper {
-  width: 1600px;
-  height: 2349px;
   background: #ffffff;
 }
 
@@ -191,4 +186,56 @@ a:focus {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.categories {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.elaboration-name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.elaboration-description {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
