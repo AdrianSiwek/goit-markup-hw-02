@@ -10,12 +10,13 @@ body {
   height: 80px;
   margin-top: 0px;
   margin-left: 0px;
-  display: inline-flex;
+  display: flex;
   background: #ffffff;
 }
 
 .main-description {
-  margin-top: 80px;
+  display: inline-block;
+  width: 1600px;
   height: 600px;
   background: #2f303a;
 }
@@ -36,6 +37,7 @@ body {
   font-size: 44px;
   line-height: 1, 36;
   text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -47,8 +49,6 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-top: 430px;
-  margin-left: 700px;
 }
 
 .description-click-word {
@@ -69,8 +69,6 @@ body {
 
 .webstudio {
   width: 145px;
-  margin-left: 214px;
-  margin-top: 24px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -83,7 +81,7 @@ body {
 .navigation {
   width: 272px;
   height: 16px;
-  display: block;
+  display: inline-block;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -101,7 +99,6 @@ body {
 
 .portfolio {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
@@ -112,7 +109,6 @@ body {
 
 .contact {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
@@ -190,6 +186,7 @@ a:focus {
 
 .team {
   background: #f5f4fa;
+  justify-content: center;
 }
 
 .name {
@@ -211,6 +208,20 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.segregate {
+  justify-content: center;
+}
+
+.photography {
+  display: inline;
+  justify-content: center;
+}
+
+.person {
+  display: inline-block;
+  justify-content: center;
 }
 
 .categories {
@@ -236,6 +247,50 @@ a:focus {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.menu {
+  display: flex;
+}
+
+.click-menu {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.menu:active .menu:hover .menu::selection {
+  cursor: pointer;
+}
+
+.menu-photo {
+  display: inline-block;
+  justify-content: center;
+}
+
+.menu-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.menu-name-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
 }
