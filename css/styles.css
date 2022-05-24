@@ -3,6 +3,9 @@ body {
   color: #212121;
   justify-content: center;
   background: #ffffff;
+  display: inline-block;
+  width: 1600px;
+  height: 2349px;
 }
 
 .buttons {
