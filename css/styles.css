@@ -8,6 +8,13 @@ body {
   height: 2349px;
 }
 
+.port {
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+  background: #ffffff;
+}
+
 .buttons {
   width: 1600px;
   height: 80px;
@@ -15,6 +22,7 @@ body {
   margin-left: 0px;
   display: flex;
   background: #ffffff;
+  justify-content: space-between;
 }
 
 .main-description {
@@ -25,10 +33,13 @@ body {
 }
 
 .elaboration {
-  margin-top: 774px;
+  width: 1170px;
+  height: 101px;
+  margin-top: 94px;
   margin-left: 215px;
-  display: inline-flex;
+  display: inline-block;
 }
+
 .information {
   background: #2f303a;
   color: #ffffff;
@@ -49,10 +60,13 @@ body {
 .description-click {
   width: 200px;
   height: 50px;
+  top: 430px;
+  margin-left: 700px;
+  cursor: pointer;
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  box-shadow: 0 px 4 px 4 px rgba (0, 0, 0, 0, 15);
   border-radius: 4px;
-  text-align: center;
 }
 
 .description-click-word {
@@ -82,13 +96,13 @@ body {
   color: black;
 }
 
-.navigation {
-  width: 272px;
-  height: 16px;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+.navi-menu {
+  display: flex;
+  justify-content: space-evenly;
   list-style-type: none;
+  width: 254px;
+  height: 16px;
+  margin-top: 32px;
 }
 
 .agency {
@@ -109,6 +123,13 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 32px;
 }
 
 .contact {
@@ -139,12 +160,11 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  margin-left: 50px;
 }
 
-a:hover {
-  color: #2196f3;
-}
-
+a:active,
+a:hover,
 a:focus {
   color: #2196f3;
 }
@@ -216,6 +236,11 @@ a:focus {
 
 .segregate {
   justify-content: center;
+  display: block;
+  width: 1170px;
+  height: 386px;
+  margin-top: 94px;
+  margin-left: 215px;
 }
 
 .photography {
@@ -257,6 +282,7 @@ a:focus {
 
 .menu {
   display: flex;
+  cursor: pointer;
 }
 
 .click-menu {
@@ -269,6 +295,8 @@ a:focus {
   letter-spacing: 0.03em;
   color: #212121;
   background: #f5f4fa;
+  border: 0px;
+  cursor: pointer;
 }
 
 .menu:active .menu:hover .menu::selection {
