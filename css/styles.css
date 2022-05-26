@@ -4,19 +4,16 @@ body {
   justify-content: center;
   background: #ffffff;
   display: inline-block;
-  width: 1600px;
   height: 2349px;
 }
 
 .port {
   position: relative;
-  width: 1600px;
   height: 1880px;
   background: #ffffff;
 }
 
 .buttons {
-  width: 1600px;
   height: 80px;
   margin-top: 0px;
   margin-left: 0px;
@@ -25,7 +22,7 @@ body {
   justify-content: space-between;
 }
 
-.main-description {
+.description {
   display: inline-block;
   width: 1600px;
   height: 600px;
@@ -33,7 +30,6 @@ body {
 }
 
 .elaboration {
-  width: 1170px;
   height: 101px;
   margin-top: 94px;
   margin-left: 215px;
@@ -58,7 +54,6 @@ body {
 }
 
 .description-click {
-  width: 200px;
   height: 50px;
   top: 430px;
   margin-left: 700px;
@@ -67,13 +62,10 @@ body {
   border: 0px;
   box-shadow: 0 px 4 px 4 px rgba (0, 0, 0, 0, 15);
   border-radius: 4px;
-}
-
-.description-click-word {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -86,7 +78,6 @@ body {
 }
 
 .webstudio {
-  width: 145px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -169,25 +160,25 @@ a:focus {
   color: #2196f3;
 }
 
-.web {
+.information-web {
   text-decoration: none;
   font-family: "Raleway";
   color: #ffffff;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.adres {
+.information-adres {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.mail {
+.information-mail {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -197,7 +188,7 @@ a:focus {
   text-decoration: none;
 }
 
-.contacts-links {
+.information-phone {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -237,18 +228,17 @@ a:focus {
 .segregate {
   justify-content: center;
   display: block;
-  width: 1170px;
   height: 386px;
   margin-top: 94px;
   margin-left: 215px;
 }
 
-.photography {
+.segregate-photography {
   display: inline;
   justify-content: center;
 }
 
-.person {
+.team-person {
   display: inline-block;
   justify-content: center;
 }
@@ -285,7 +275,7 @@ a:focus {
   cursor: pointer;
 }
 
-.click-menu {
+.menu-click {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -299,7 +289,11 @@ a:focus {
   cursor: pointer;
 }
 
-.menu:active .menu:hover .menu::selection {
+.menu-click:hover {
+  color: #2196f3;
+}
+.menu-click:active,
+.menu-click::selection {
   cursor: pointer;
 }
 
