@@ -13,6 +13,7 @@ body {
 .port {
   display: flex;
   height: 1880px;
+  width: 1200px;
   background: #ffffff;
 }
 
