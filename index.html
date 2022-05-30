@@ -18,40 +18,46 @@
   </head>
   <body class="studio">
     <header class="buttons">
-      <a class="buttons-webstudio" href="./index.html"
-        ><span class="highlight">Web</span><span>Studio</span></a
-      >
+      <div class="container">
+        <a class="buttons-webstudio" href="./index.html"
+          ><span class="highlight">Web</span><span>Studio</span></a
+        >
 
-      <nav>
-        <ul class="buttons-navi" style="list-style: none">
-          <li><a class="agency" href="">Agencja</a></li>
-          <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="contact" href="">Kontakt</a></li>
+        <nav>
+          <ul class="buttons-navi" style="list-style: none">
+            <li><a class="buttons-navi-link" href="">Agencja</a></li>
+            <li>
+              <a class="buttons-navi-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="buttons-navi-link" href="">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="buttons-contact" style="list-style: none">
+          <li>
+            <a class="buttons-contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="buttons-contact-link" href="tel:+48111111111"
+              >+48111111111</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="buttons-contacts" style="list-style: none">
-        <li>
-          <a class="buttons-contact-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="buttons-contact-phone" href="tel:+48111111111"
-            >+48111111111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main class="general">
       <section class="description">
-        <h1 class="description-name">
-          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-        </h1>
-        <button class="description-click" type="button">Zamów Usługę</button>
+        <div class="container">
+          <h1 class="description-name">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
+          <button class="description-click" type="button">Zamów Usługę</button>
+        </div>
       </section>
 
-      <section class="elaboration">
-        <ul style="list-style: none">
+      <section class="container">
+        <ul class="elaboration" style="list-style: none">
           <li>
             <h4 class="elaboration-name">LOREM IPSUM</h4>
             <p class="elaboration-description">
@@ -87,118 +93,126 @@
       </section>
 
       <section class="segregate">
-        <h2 class="categories">Czym się zajmujemy</h2>
-        <ul style="list-style: none">
-          <li class="segregate-photography">
-            <img
-              src="./image/keyboard.jpg"
-              alt="typing on the keyboard"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="segregate-photography">
-            <img
-              src="./image/phone.jpg"
-              alt="holding the phone in the background the laptop"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="segregate-photography">
-            <img
-              src="./image/tablet.jpg"
-              alt="using the tablet"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="categories">Czym się zajmujemy</h2>
+          <ul style="list-style: none">
+            <li class="segregate-photography">
+              <img
+                src="./image/keyboard.jpg"
+                alt="typing on the keyboard"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="segregate-photography">
+              <img
+                src="./image/phone.jpg"
+                alt="holding the phone in the background the laptop"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="segregate-photography">
+              <img
+                src="./image/tablet.jpg"
+                alt="using the tablet"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="team">
-        <h2 class="categories">Nasz Zespół</h2>
-        <ul style="list-style: none">
-          <li class="team-person">
-            <figure>
-              <img
-                src="./image/john1.jpg"
-                alt="John Doe in glasses"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="names">John Doe</h3>
-                <p class="position">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-person">
-            <figure>
-              <img
-                src="./image/john2.jpg"
-                alt="John Doe blonde woman"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="names">John Doe</h3>
-                <p class="position">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-person">
-            <figure>
-              <img
-                src="./image/john3.jpg"
-                alt="John Doe in a blue shirt"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="names">John Doe</h3>
-                <p class="position">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-person">
-            <figure>
-              <img
-                src="./image/john4.jpg"
-                alt="John Doe in glasses and a black tishirt"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <h3 class="names">John Doe</h3>
-                <p class="position">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="categories">Nasz Zespół</h2>
+          <ul style="list-style: none">
+            <li class="team-person">
+              <figure>
+                <img
+                  src="./image/john1.jpg"
+                  alt="John Doe in glasses"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="names">John Doe</h3>
+                  <p class="position">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-person">
+              <figure>
+                <img
+                  src="./image/john2.jpg"
+                  alt="John Doe blonde woman"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="names">John Doe</h3>
+                  <p class="position">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-person">
+              <figure>
+                <img
+                  src="./image/john3.jpg"
+                  alt="John Doe in a blue shirt"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="names">John Doe</h3>
+                  <p class="position">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-person">
+              <figure>
+                <img
+                  src="./image/john4.jpg"
+                  alt="John Doe in glasses and a black tishirt"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <h3 class="names">John Doe</h3>
+                  <p class="position">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="information">
-      <ul style="list-style: none">
-        <li>
-          <a class="information-web" href="./index.html"
-            ><span class="highlight">Web</span><span>Studio</span></a
-          >
-        </li>
-        <li>
-          <address class="information-adres">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </address>
-        </li>
-        <li>
-          <a class="information-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="information-phone" href="tel:+48111111111">+48111111111</a>
-        </li>
-      </ul>
+      <div class="information-container">
+        <ul style="list-style: none">
+          <li>
+            <a class="information-web" href="./index.html"
+              ><span class="highlight">Web</span><span>Studio</span></a
+            >
+          </li>
+          <li>
+            <address class="information-adres">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+          </li>
+          <li>
+            <a class="information-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="information-phone" href="tel:+48111111111"
+              >+48111111111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
