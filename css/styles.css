@@ -26,7 +26,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .port {
@@ -253,6 +253,15 @@ a:focus {
 .information {
   background: var(--brand-two-color);
   color: var(--brand-second-color);
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.information-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .highlight {
@@ -275,33 +284,30 @@ a:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-second-color);
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 
-.information-mail {
+.information-contact {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-contact-color);
   text-decoration: none;
-}
-
-.information-phone {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 71;
-  letter-spacing: 0.03em;
-  color: var(--brand-contact-color);
-  text-decoration: none;
+  padding-bottom: 9px;
+  text-align: left;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
   cursor: pointer;
   margin-top: 94px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 50px;
 }
 
 .menu-click {
@@ -316,6 +322,11 @@ a:focus {
   background: #f5f4fa;
   border: 0px;
   cursor: pointer;
+  border-radius: 4px;
+  width: 114px;
+  height: 38px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .menu-click:hover {
@@ -326,21 +337,41 @@ a:focus {
   cursor: pointer;
 }
 
-.menu-photo {
+.offer {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.menu-name {
+.offer-photo {
+  display: flex;
+  max-width: 370px;
+  max-height: 404px;
+  list-style-type: none;
+  flex-basis: calc((100%-30px) / 3);
+  margin-left: 15px;
+  margin-left: 15px;
+}
+
+.offer-photo > img {
+  object-fit: cover;
+}
+
+.offer-name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  justify-content: center;
 }
 
-.menu-name-title {
+.offer-name-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -348,11 +379,4 @@ a:focus {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--brand-contact-color);
-}
-
-.konti {
-  display: flex;
-  flex-wrap: wrap;
-  height: 1360px;
-  margin-left: 215px;
 }

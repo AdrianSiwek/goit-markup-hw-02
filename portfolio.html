@@ -15,33 +15,37 @@
 
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
-  <body class="port">
+  <body>
     <header class="buttons">
-      <a class="buttons-webstudio" href="./index.html"
-        ><span class="highlight">Web</span><span>Studio</span></a
-      >
+      <div class="container">
+        <a class="buttons-webstudio" href="./index.html"
+          ><span class="highlight">Web</span><span>Studio</span></a
+        >
 
-      <nav>
-        <ul class="buttons-navi" style="list-style: none">
-          <li><a class="agency" href="">Agencja</a></li>
-          <li><a class="portfolio" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="contact" href="">Kontakt</a></li>
+        <nav>
+          <ul class="buttons-navi" style="list-style: none">
+            <li><a class="buttons-navi-link" href="">Agencja</a></li>
+            <li>
+              <a class="buttons-navi-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="buttons-navi-link" href="">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="buttons-contact" style="list-style: none">
+          <li>
+            <a class="buttons-contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="buttons-contact-link" href="tel:+48111111111"
+              >+48111111111</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="buttons-contacts" style="list-style: none">
-        <li>
-          <a class="buttons-contact-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="buttons-contact-phone" href="tel:+48111111111"
-            >+48111111111</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
+    <main class="conatiner">
       <section>
         <ul class="menu" style="list-style: none">
           <li><button class="menu-click" type="button">Wszystkie</button></li>
@@ -51,9 +55,9 @@
           <li><button class="menu-click" type="button">Marketing</button></li>
         </ul>
       </section>
-      <section class="konti">
-        <ul style="list-style: none">
-          <li class="menu-photo">
+      <section>
+        <ul class="offer">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/notebook.jpg"
@@ -62,12 +66,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Technocrack</h3>
-                <p class="menu-name-title">Strona internetowa</p>
+                <h3 class="offer-name">Technocrack</h3>
+                <p class="offer-name-title">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/nba.jpg"
@@ -76,12 +80,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Grafika New Orlean vs Golden Star</h3>
-                <p class="menu-name-title">Dizajn</p>
+                <h3 class="offer-name">Grafika New Orlean vs Golden Star</h3>
+                <p class="offer-name-title">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/logorestaurant.jpg"
@@ -90,12 +94,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Restauracja Seafood</h3>
-                <p class="menu-name-title">Aplikacja</p>
+                <h3 class="offer-name">Restauracja Seafood</h3>
+                <p class="offer-name-title">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/headphones.jpg"
@@ -104,12 +108,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Projekt Prime</h3>
-                <p class="menu-name-title">Marketing</p>
+                <h3 class="offer-name">Projekt Prime</h3>
+                <p class="offer-name-title">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/box.jpg"
@@ -118,12 +122,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Projekt Boxes</h3>
-                <p class="menu-name-title">Aplikacja</p>
+                <h3 class="offer-name">Projekt Boxes</h3>
+                <p class="offer-name-title">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/computermonitor.jpg"
@@ -132,12 +136,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Inspiration has no Borders</h3>
-                <p class="menu-name-title">Strona internetowa</p>
+                <h3 class="offer-name">Inspiration has no Borders</h3>
+                <p class="offer-name-title">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/book.jpg"
@@ -146,12 +150,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Magazyn Limited Edition</h3>
-                <p class="menu-name-title">Dizajn</p>
+                <h3 class="offer-name">Magazyn Limited Edition</h3>
+                <p class="offer-name-title">Dizajn</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/letters.jpg"
@@ -160,12 +164,12 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Projekt LAB</h3>
-                <p class="menu-name-title">Marketing</p>
+                <h3 class="offer-name">Projekt LAB</h3>
+                <p class="offer-name-title">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li class="menu-photo">
+          <li class="offer-photo">
             <figure>
               <img
                 src="./image/growingbuisness.jpg"
@@ -174,8 +178,8 @@
                 height="294"
               />
               <figcaption>
-                <h3 class="menu-name">Growing Business</h3>
-                <p class="menu-name-title">Aplikacja</p>
+                <h3 class="offer-name">Growing Business</h3>
+                <p class="offer-name-title">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -183,26 +187,30 @@
       </section>
     </main>
     <footer class="information">
-      <ul style="list-style: none">
-        <li>
-          <a class="information-web" href="./index.html"
-            ><span class="highlight">Web</span><span>Studio</span></a
-          >
-        </li>
-        <li>
-          <address class="information-adres">
-            m. Warszawa, Aleje Jerozolimskie 21
-          </address>
-        </li>
-        <li>
-          <a class="information-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="information-phone" href="tel:+48111111111">+48111111111</a>
-        </li>
-      </ul>
+      <div class="information-container">
+        <ul style="list-style: none">
+          <li>
+            <a class="information-web" href="./index.html"
+              ><span class="highlight">Web</span><span>Studio</span></a
+            >
+          </li>
+          <li>
+            <address class="information-adres">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+          </li>
+          <li>
+            <a class="information-contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="information-contact" href="tel:+48111111111"
+              >+48111111111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
