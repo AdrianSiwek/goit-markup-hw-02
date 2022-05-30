@@ -114,6 +114,7 @@ a:focus {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-width: auto;
 }
 
 .description-click {
@@ -201,6 +202,40 @@ a:focus {
   border-radius: 0px 0px 4px 4px;
   margin-left: 15px;
   margin-right: 15px;
+  padding-bottom: 30px;
+  width: 270px;
+  height: 368px;
+}
+
+.team-component-person:first-child {
+  margin-left: 0px;
+}
+
+.team-component-person:last-child {
+  margin-right: 0px;
+}
+
+.names {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-contact-color);
 }
 
 .information {
@@ -249,27 +284,6 @@ a:focus {
   letter-spacing: 0.03em;
   color: var(--brand-contact-color);
   text-decoration: none;
-}
-
-.name {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.position {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--brand-contact-color);
 }
 
 .menu {
