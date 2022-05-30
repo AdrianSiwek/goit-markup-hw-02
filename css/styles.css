@@ -6,6 +6,16 @@
   --brand-contact-color: #757575;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--text-main-color);
@@ -188,11 +198,13 @@ a:focus {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .team-component {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
 }
 
