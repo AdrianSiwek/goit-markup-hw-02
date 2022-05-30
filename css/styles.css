@@ -26,11 +26,7 @@ body {
   background: var(--brand-second-color);
 }
 
-.general {
-  display: flex;
-}
-
-<!--głowa-- > .buttons {
+.buttons {
   height: 80px;
   display: flex;
   border-bottom: 1px;
@@ -58,14 +54,11 @@ body {
 .buttons-navi {
   display: flex;
   list-style-type: none;
-  height: 16px;
-  margin-top: 32px;
-  margin-left: 93px;
-  border: 0px;
 }
 
 .buttons-navi-link {
   margin-right: 46px;
+  font-weight: 500;
   color: var(--text-main-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -99,13 +92,46 @@ a:focus {
 
 .description {
   display: flex;
-  min-height: 600px;
-  max-width: 1200px;
   background: var(--brand-two-color);
+  min-height: 600px;
+}
+
+.description-name {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.06em;
+  color: var(--brand-second-color);
+  max-width: 696px;
+}
+
+.description,
+.container {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
+}
+
+.description-click {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  background: var(--brand-mlight-color);
+  border: 0px;
+  box-shadow: 0 px 4 px 4 px rgba (0, 0, 0, 0, 15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 .elaboration {
@@ -120,35 +146,6 @@ a:focus {
 .information {
   background: var(--brand-two-color);
   color: var(--brand-second-color);
-}
-
-.description-name {
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.06em;
-  color: var(--brand-second-color);
-}
-
-.description-click {
-  width: 200px;
-  height: 50px;
-  margin-left: 700px;
-  cursor: pointer;
-  background: var(--brand-mlight-color);
-  border: 0px;
-  box-shadow: 0 px 4 px 4 px rgba (0, 0, 0, 0, 15);
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
 }
 
 .highlight {
